@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="Compiled/main.css">
+    </head>
+    <body>
+        <section id="sec">
+            <div class="cover display-off">
+                <p class="alert-date-low ">
+                    Input date is less than the current date!
+                </p>
+                <button class="okbtn ">Close</button>
+            </div>
+            <input class="input" type="date" name="dateS">
+            <div class="ul-container">
+                <ul class="ul">
+                    <div class="container">
+                        <li>days:</li> 
+                        <li class="results days">
+                            0
+                        </li>
+                    </div>
+
+                    <div class="container">
+                        <li>hourse: </li>
+                        <li class="results hourse">
+                            0
+                        </li>
+                    </div>
+
+                    <div class="container">
+                        <li>minutes: </li>
+                        <li class="results minutes">
+                            0
+                        </li>
+                    </div>
+
+                    <div class="container">
+                        <li>Seconds: </li>
+                        <li class="results seconds">
+                            0
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <button class="btn-clear">Stop and Clear</button>
+        </section>
+    </body>
+    <script src="app.js"></script>
+    <script src="library/anime.js"></script>
+</html>
